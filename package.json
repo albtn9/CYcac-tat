@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^14.5.1",
+    "http-server": "^14.1.1",
+    "start-server-and-test": "^1.14.0"
+  },
+  "scripts": {
+    "start-server": "http-server ./paginas -p 8080",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open-server": "start-server-and-test start-server http://localhost:8080 cy:open"
+  }
+}
