@@ -1,34 +1,40 @@
-CAC TAT - Central de Atendimento ao Cliente
-Projeto de formulário de atendimento desenvolvido por Walmyr Filho, com testes automatizados usando Cypress.
-Licença: MIT © Walmyr Filho
+# CAC TAT - Central de Atendimento ao Cliente
 
-Como rodar
-Clone o repositório:
+Projeto de formulário de atendimento desenvolvido por **Walmyr Filho**, com testes automatizados usando Cypress.
+Licença: **MIT © Walmyr Filho**
 
-git clone <URL_DO_REPOSITORIO>
+## Estrutura
 
-cd <NOME_DA_PASTA>
+- `/paginas — arquivos estáticos HTML, CSS e JS`
+- `/cypress/integration — testes automatizados`
+- `/cypress/support — comandos customizados e configurações`
+- `package.json — dependências e scripts`
 
-Instale as dependências:
+## Como executar os testes
 
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/albtn9/CYcac-tat.git
+```
+
+2. Instale as dependências:
+
+```bash
 npm install
+```
 
-Inicie o servidor local:
+3. Inicie o servidor local:
 
+```bash
 npm run start-server
+```
 
-Abra o Cypress:
-
+4. Abra o Cypress:
+````bash
 npm run cy:open-server
+````
 
-Estrutura do projeto
-/paginas — arquivos estáticos HTML, CSS e JS
+## Autor
 
-/cypress/integration — testes automatizados
-
-/cypress/support — comandos customizados e configurações
-
-package.json — dependências e scripts
-
-README.md — documentação
-
+Gustavo
