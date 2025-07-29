@@ -3,7 +3,7 @@
 Projeto de formulário de atendimento desenvolvido por **Walmyr Filho**, com testes automatizados usando Cypress.
 Licença: **MIT © Walmyr Filho**
 
-## Estrutura
+## Estrutura (Page Objects)
 
 - `/paginas — arquivos estáticos HTML, CSS e JS`
 - `/cypress/integration — testes automatizados`
