@@ -35,6 +35,4 @@ npm run start-server
 npm run cy:open-server
 ````
 
-## Autor
-
-Gustavo
+## : albt9
